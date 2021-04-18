@@ -87,7 +87,7 @@ dependencies = [
  "httparse",
  "language-tags",
  "log 0.3.9",
- "mime 0.2.6",
+ "mime",
  "num_cpus",
  "time",
  "traitobject",
@@ -128,7 +128,7 @@ name = "iron-addition"
 version = "0.1.0"
 dependencies = [
  "iron",
- "mime 0.3.16",
+ "mime",
  "router",
  "urlencoded",
 ]
@@ -185,18 +185,12 @@ dependencies = [
 ]
 
 [[package]]
-name = "mime"
-version = "0.3.16"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "2a60c7ce501c71e03a9c9c0d35b861413ae925bd979cc7a4e30d060069aaac8d"
-
-[[package]]
 name = "mime_guess"
 version = "1.8.8"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "216929a5ee4dd316b1702eedf5e74548c123d370f47841ceaac38ca154690ca3"
 dependencies = [
- "mime 0.2.6",
+ "mime",
  "phf",
  "phf_codegen",
  "unicase",
